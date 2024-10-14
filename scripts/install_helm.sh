@@ -21,7 +21,7 @@ curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 # Verify Helm installation
 echo "Verifying Helm installation..."
-helm versio
+helm version
 
 # Create a namespace for Helm (optional)
 echo "Creating a namespace for Helm charts (optional)..."
